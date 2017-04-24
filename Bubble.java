@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Bubble {
     public static void main(String[] args) {
-        int size = 8;
+        int size = 8; // sets size and max to 8
 
         ArrayList<Integer> list = new ArrayList<Integer>(size);
         for(int i = 1; i <= size; i++) {
