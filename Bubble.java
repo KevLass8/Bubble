@@ -13,7 +13,7 @@ public class Bubble {
 int c;
 c = 0;
  ArrayList<Integer> list2 = new ArrayList<Integer> (size);
-        Random rand = new Random();
+        Random rand = new Random(); // sets rand as random
         while(c != list.size()) {
             int index = rand.nextInt(list.size());
             System.out.println("before bubble sort : "+ list.get(index));
